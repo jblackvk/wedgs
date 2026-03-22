@@ -14,7 +14,7 @@ Passez une bonne journee / soiree
   console.log(nom);
   console.log(urlParams);
   if (nom){
-      usernameZone.innerHTML = nom;
+      usernameZone.textContent = nom;
   }
   console.log(id);
 </Script>
