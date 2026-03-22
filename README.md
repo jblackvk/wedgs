@@ -9,7 +9,7 @@ Passez une bonne soiree
 <Script>
   var usernameZone = document.getElementById('username');
   const urlParams = new URLSearchParams(window.location.search);
-  const nom =params.get('name');
+  const nom =urlParams.get('name');
   console.log(nom);
   if (nom){
       usernameZone.textcontent = urlParams;
